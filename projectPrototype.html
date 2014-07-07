@@ -1,13 +1,13 @@
 ---
 layout: MarketplaceUXSpec
 multipage: true
-multiURL: projectCustomerJourney.html
-multisequence: four
+multiURL: projectPrototype.html
+multisequence: five
 ---	
 
 <div class="container">
 	
-	<h1>Developer Customer Journey</h1>
+	<h1>Building the Prototype</h1>
 
 	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html. -->
 	{% if page.multipage %}
@@ -15,10 +15,25 @@ multisequence: four
 	{% endif %}
 	
 	<div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
-		<h3>Caveat</h3>
+		<h3>Building the Prototype</h3>
 
-		<p class="longText">Don’t think of it as a flow. WIP.</i></p>
-
-		<p class="longText">(Diagram goes here.)</p>
+		<p class="longText">
+		The process for building the prototype for BuddyUp was full of twists and turns as to be expected with a new technology and product concept.
+		</p>
+		
+		<p><b>Mini work-week</b></p>
+		<p class="longText">
+		We kicked-off the project with a 3-day mini-work week (https://etherpad.mozilla.org/buddyup-workweek). We reviewed the top questions currently asked in the support forums (link) to understand what issues the product would need to help users troubleshoot. We wrote a user flow for the app: a user would text a question to a helper, the helper would receive the question, the helper would respond to the question and then invite the user to screen share. We then storyboarded basic flow for the prototype that our developer could use to start building the chat part of the prototype.
+		</p>
+		
+		<p><b>Pivoting the technology</b></p>
+		<p class="longText">
+		While one of our developers was busy building a hosted app to support the chat portion of the prototype, Michelle and I started to put the MWC prototype through its paces. We used two phones and started to work through the list of top questions with one person acting as helper and the other as helpee. We could not  get through a single task successfully. Since the controller could not see the helpee’s screen, the devices would often get out of synch without the helper or helpee’s knowledge. The demo prototype worked well on the MWC floor where all the devices had the same builds and where the presenter could see if all the devices were in synch. To support a remote use case however it was absolutely necessary to see the helpee’s screen. We requested the developer Aubrey add in screen sharing to the prototype which he did on very quick turnaround. Using this new build Michelle and I again tested the top questions and were able to complete them successfully.
+		</p>
+		
+		<p><b>Final Solution</b></p>
+		<p class="longText">
+		Web sockets...
+		</p>
 	</div>
 	
