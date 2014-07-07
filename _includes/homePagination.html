@@ -14,15 +14,17 @@
 		{% elsif page.multisequence == 'three' %}
 			<a href="projectGoals.html">
 		{% elsif page.multisequence == 'four' %}
-			<a href="projectAudience.html">
+			<a href="projectBackground.html">
 		{% elsif page.multisequence == 'five' %}
-			<a href="projectJourney.html">
+			<a href="projectPrinciples.html">
 		{% elsif page.multisequence == 'six' %}
-			<a href="projectStrategy.html">
+			<a href="projectPrototype.html">
 		{% elsif page.multisequence == 'seven' %}
-			<a href="projectPrinciples.html">				
+			<a href="projectUserTesting.html">				
 		{% elsif page.multisequence == 'eight' %}
-			<a href="projectConcepts.html">				
+			<a href="projectCompetitiveAnalysis.html">
+		{% elsif page.multisequence == 'nine' %}
+			<a href="projectDesignDirections.html">
 				
 		{% endif %}
 		
@@ -35,17 +37,17 @@
 		
 		<li {% if page.multiURL == 'projectGoals.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectGoals.html">2</a></li>
 		
-		<li {% if page.multiURL == 'projectAudience.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectAudience.html">3</a></li>
+		<li {% if page.multiURL == 'projectBackground.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectBackground.html">3</a></li>
 
-		<!--<li {% if page.multiURL == 'projectJourney.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectJourney.html">4</a></li>
+		<li {% if page.multiURL == 'projectPrinciples.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectPrinciples.html">4</a></li>
 		
-		<li {% if page.multiURL == 'projectStrategy.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectStrategy.html">5</a></li>
+		<li {% if page.multiURL == 'projectPrototype.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectPrototype.html">5</a></li>
 
-		<li {% if page.multiURL == 'projectPrinciples.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectPrinciples.html">6</a></li>
+		<li {% if page.multiURL == 'projectUserTesting.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectUserTesting.html">6</a></li>
 
-		<li {% if page.multiURL == 'projectConcepts.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectConcepts.html">7</a></li>
+		<li {% if page.multiURL == 'projectCompetitveAnalysis.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectCompetitiveAnalysis.html">7</a></li>
 
-		<li {% if page.multiURL == 'projectIA.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectIA.html">8</a></li>-->
+		<li {% if page.multiURL == 'projectDesignDirections.html' %}class="active"{% endif %}><a href="{{ site.baseurl }}/projectDesignDirections.html">8</a></li>
 
 <!-- This part deals with disabled state of the FORWARD arrow. Disabled state is for the LAST page of the multi pages. -->
 {% if page.multiURL == "projectIA.html" %}
@@ -57,17 +59,17 @@
 		{% if page.multisequence == 'one' %}
 			<a href="projectGoals.html">
 		{% elsif page.multisequence == 'two' %}
-			<a href="projectAudience.html">
+			<a href="projectBackground.html">
 		{% elsif page.multisequence == 'three' %}
-			<a href="projectJourney.html">
-		{% elsif page.multisequence == 'four' %}
-			<a href="projectStrategy.html">
-		{% elsif page.multisequence == 'five' %}
 			<a href="projectPrinciples.html">
+		{% elsif page.multisequence == 'four' %}
+			<a href="projectPrototype.html">
+		{% elsif page.multisequence == 'five' %}
+			<a href="projectUserTesting.html">
 		{% elsif page.multisequence == 'six' %}
-			<a href="projectConcepts.html">				
+			<a href="projectCompetitiveAnalysis.html">				
 		{% elsif page.multisequence == 'seven' %}
-			<a href="projectIA.html">					
+			<a href="projectDesignDirections.html">					
 		{% endif %}
 		
 		&raquo;</a>
