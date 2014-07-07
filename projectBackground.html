@@ -1,12 +1,12 @@
 ---
 layout: MarketplaceUXSpec
 multipage: true
-multiURL: projectStrategy.html
-multisequence: five
+multiURL: projectBackground.html
+multisequence: three
 ---	
 
 <div class="container">
-	<h1>Design Strategies</h1>
+	<h1>Project Background</h1>
 
 	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html. -->
 	{% if page.multipage %}
@@ -14,46 +14,31 @@ multisequence: five
 	{% endif %}
 	
 	<div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
-		<h3>Components of a Developer Friendly App Store</h3>
+		<h3>Background</h3>
 
-		<p class="longText"><b>Be transparent.</b> Support developers throughout the developer journey. Not just the submission and maintenance flows. For example:</p>
+		<p class="longText">
+		The SUMO team have been working on a concept for a live support help system for Firefox OS for over nine months. The Support team had several asynchronous ways of supporting Firefox OS users through a user guides, forums, etc. but believed that a live help solution would lead to higher satisfaction and resolution rates than asynchronous methods.
+		</p>
+
+		<p class="longText">The team had a functional specification (link) and executive summary (link). Some of the basic requirements for the service that they had come up with were:</p>
 		<ul class="longText">
 			
-			<li>Developers want better guidance around requirements, and they want it both up front and during the submission flow. "Checklists" are concepts they like a lot.</li>
-
-			<li>Currently we can't compete on things like number of users or revenue. But we can compete on transparency and ease-of-use of the developer workflow and interface.</li>
-			
+			<li>Real-time communication via chat</li>
+			<li>Ability to trouble shoot the user's issue by showing the user how to resolve their issue (rather than telling)*</li>
+			<li>Ability for community members to provide help to users</li>
 		</ul>
 
-		<p class="longText"><b>Be experts.</b> Use Mozilla expertise to provide guidance that helps developers make informed choices. Don't leave them with a paradox of choice. For example:</p>
-		<ul class="longText">
-			
-			<li>Developers are submitting to multiple app stores. They're busy people invested in their apps (not in learning the intricacies of an app store). So they want an opinated experience that is fast and easy to use.</li>
+		<p class="longText">
+		*For the last year Michelle Luna, Mobile & Firefox OS Support Manager, has helped her parents troubleshoot the Firefox OS phones they use as their primary mobile devices. Michelle realized that when she showed her parent how to do something on the phone her parent's ability to understand the issue and resolve it for themselves was much higher.
+		</p>
 
-			<li>Developers receive post-release incentives from other app stores, i.e., prestige and profit (iOS), developer ecosystem (Android). Currently we can't compete on these. But we can beef up our post-release communication to celebrate our developers and to provide "expert" tools/guidance for how to track, manage, update, and (perhaps) market their apps.</li>
+	<h3>Prior Art </h3>
 
-		</ul>
+		<p><i>MWC demo prototype</i></p>
+		<p class="longText">
+		 Aubrey Anderson developed a prototype for MWC that allowed, through touch events, one Firefox OS device to control one or more other Firefox OS devices. At MWC a presenter could use their Firefox OS device to give a walkthrough and demo of the operating system to people with devices at the booth. A touch event on the controller’s phone triggered a touch event on the controlled phones. The controller could not see the other users’ screens. The MWC prototype was the starting point for the BuddyUp prototype and incorporates part of its codebase.
+		</p>
 
-
-		<p class="longText"><b>Be generous.</b> Always default to the most common and logical use case(s); rather than trying to address all potential use cases. For example:</p>
-		<ul class="longText">
-			
-			<li>To our knowledge, no one has submitted an Android-only app to Marketplace yet. Keeping this in the UI forces the average developer user to think about something that isn't relevant to them - creating added cognitive load and a sense that the process is "work."</li>
-
-			<li>Liz here: We should encourage developers to create native Android apps or to create FirefoxOS apps - either is in their better interest.</li>
-
-		</ul>
-
-
-		<p class="longText"><b>Don't try to be the "everything app store."</b> Focus on doing several things really well. Do those for a period of time. And then see what's needed to make the experience even better.</p>
-
-
-		<h2>Ongoing Design Discussions</h2>
-		<ol class="longText">
-			
-			<li><b>Should developers be able to submit Android-only apps to the Marketplace?</b> <a href="https://github.com/tsmuse/FirefoxMarketplaceDevPagesDesign/issues/24">Discussion on Github</a></li>
-			
-		</ol>
 
 		
 		
